@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/hacked.png");
+    background-size:cover;        
+    background-position:center;   
+    background-repeat :no-repeat;  
+    font-family :monospace;
+    color : #ffffff;
+}
+
+
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+main, header, footer, section {
+    position: relative;
+    z-index: 1;
+   background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}
+
+a{
+    color: #ffffff;
+}
+
+
